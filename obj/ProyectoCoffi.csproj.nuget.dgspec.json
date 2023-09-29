@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {}
+    "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {
+    "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
+        "projectUniqueName": "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
         "projectName": "ProyectoCoffi",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
+        "projectPath": "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\obj\\",
+        "outputPath": "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -55,10 +55,6 @@
               "target": "Package",
               "version": "[7.0.10, )"
             },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -69,7 +65,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
