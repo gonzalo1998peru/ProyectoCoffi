@@ -9,7 +9,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #767676;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
@@ -19,91 +19,4 @@ html {
 
 body {
   margin-bottom: 60px;
-}
-
-header{
-background: #9b5555;
-
-}
-#marron {
-  color:#964b00;
-} 
-.bg-principal{
-  background-color: #9b5555!important;
-}
-.btn-marron {
-  background-color: #EAB465;
-  color:#FFFFFF;
-  border-color: #EAB465;
-  display: inline-block;
-  
-}
-
-.btn-plomo {
-  background-color: #767676;
-  color:#FFFFFF;
-  display: inline-block;
-  border-color: #767676;
-}
-
-.girar:hover{
-  -webkit-transform:scale(1.5);
-  -moz-transform:scale(1.5);
-  -o-transform:scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
-.fondo{
-  background-color: #F9E9D1;
-  
-  }
-
-  .card-container{
-    display: flex;
-    justify-content: center;
-    
-    }
-    
-.fondo1-producto{
-      background-color: #f9e9d1;
-      border-radius: 25px 25px 0px 0px;
-      
-  }
-    
-.fondo2-producto {
-       background-color: #f9e9d1;
-       border-radius: 0px 0px 25px 25px;
-       
-}
-    
-.bordes{
-      border:none;
-}
-
-.circulo{
-  border-radius: 5em;
-}
-
-.right{
-  text-align: right;
-  margin-right: 25px ;
-}
-
-.center{
-  text-align: center;
-}
-
-.card-text{
-  font-size: 1.1rem;
-  line-height: 2.0;
-}
-
-
-#pago{
-  color: #341f1c;
-}
-
-thead{
-  color:#FFFFFF;
 }
