@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj": {}
+    "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj": {
+    "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj",
+        "projectUniqueName": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj",
         "projectName": "ProyectoCoffi",
-        "projectPath": "c:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj",
+        "projectPath": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj",
         "packagesPath": "C:\\Users\\shirl\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\obj\\",
+        "outputPath": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shirl\\AppData\\Roaming\\NuGet\\NuGet.Config",

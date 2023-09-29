@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VocsVEkIZdBwSF43jkDWI8AXCmxVPM9ud8yet0Kae0HWeGOaBfGGipZlnl5krESApzE3/lr6MxTH+MAXwXej8Q==",
+  "dgSpecHash": "F/Rx5W207Ha9fMMabs23DNWRZmKj05rjbTn3WnwTwUihmwz6GMcU6llGZjTTJAKXcnZt4v0crJSNm6kV9VAzeg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj",
+  "projectFilePath": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI MAIN\\ProyectoCoffi\\ProyectoCoffi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shirl\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\shirl\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.9\\microsoft.aspnetcore.cryptography.internal.7.0.9.nupkg.sha512",
