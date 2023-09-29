@@ -12,7 +12,6 @@
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.10",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
           "Microsoft.AspNetCore.Identity.UI": "7.0.10",
-          "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11"

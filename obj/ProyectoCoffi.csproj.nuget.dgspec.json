@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {}
+    "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {
+    "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
         "projectName": "ProyectoCoffi",
-        "projectPath": "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\ProyectoCoffi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -65,7 +65,7 @@
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.11, )"
             }
           },
           "imports": [

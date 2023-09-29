@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\img\\COFI5.PNG",
+      "PackagePath": "staticwebassets\\img\\COFI5.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\img\\cofi1.PNG",
+      "PackagePath": "staticwebassets\\img\\cofi1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\img\\cofi2.PNG",
+      "PackagePath": "staticwebassets\\img\\cofi2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\img\\cofi3.PNG",
+      "PackagePath": "staticwebassets\\img\\cofi3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\img\\cofi4.PNG",
+      "PackagePath": "staticwebassets\\img\\cofi4.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\img\\cofi6.PNG",
+      "PackagePath": "staticwebassets\\img\\cofi6.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\img\\logo.jpeg",
+      "PackagePath": "staticwebassets\\img\\logo.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Documents\\GitHub\\ProyectoCoffi\\ProyectoCoffi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
