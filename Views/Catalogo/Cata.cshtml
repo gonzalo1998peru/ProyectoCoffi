@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catálogo de Cafés</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d5b097; /* Color de fondo deseado */
+            padding: 20px;
+        }
+        .titulo {
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .catalogoContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .producto {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 10px;
+        width: 23%; /* Ancho ajustado para mostrar 4 productos en una fila */
+        text-align: center;
+        background: linear-gradient(45deg, #ff6b6b, #ffb88c); /* Fondo degradado */
+        transition: background 0.3s ease; /* Transición para el cambio de color */
+    }
+        .imagenCafe {
+            max-width: 100px;
+            max-height: 100px;
+            margin-bottom: 10px;
+        }
+         .nombreProducto {
+        margin-bottom: 5px;
+        color: white; /* Color del texto */
+    }
+         .precioProducto {
+        margin-bottom: 5px;
+        color: white; /* Color del texto */
+    }
+        .cantidadContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .botonCantidad {
+            font-size: 1.2em;
+            margin: 0 5px;
+        }
+        .botonAgregarCarrito {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .botonAgregarCarrito:hover {
+            background-color: #45a049;
+        }
+        .producto:hover {
+        background: linear-gradient(45deg, rgb(83, 31, 31), rgb(163, 98, 98)); /* Color al pasar el ratón */
+    }
+    </style>
+</head>
+<body>
+    <div class="titulo">CATÁLOGO DE PRODUCTOS</div>
+    <div class="catalogoContainer">
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cataa1.png" alt="Café 1">
+            <div class="nombreProducto">Café Tostado Intenso</div>
+            <div class="precioProducto">S/25</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata2.png" alt="Café 1">
+            <div class="nombreProducto">Café nota Malta Bitter</div>
+            <div class="precioProducto">S/24</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata3.png" alt="Café 1">
+            <div class="nombreProducto">Café nota Cacao</div>
+            <div class="precioProducto">S/27</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata4.png" alt="Café 1">
+            <div class="nombreProducto">Café nota Frutal</div>
+            <div class="precioProducto">S/28</div>
+            <div class="cantidadContainer">
+               <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata5.png" alt="Café 1">
+            <div class="nombreProducto">Café Robusto</div>
+            <div class="precioProducto">S/30</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata6.png" alt="Café 1">
+            <div class="nombreProducto">Café Geisha</div>
+            <div class="precioProducto">S/26</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata7.png" alt="Café 1">
+            <div class="nombreProducto">Café Iberica</div>
+            <div class="precioProducto">S/20</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata8.png" alt="Café 1">
+            <div class="nombreProducto">Café Arabica</div>
+            <div class="precioProducto">S/23</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata9.png" alt="Café 1">
+            <div class="nombreProducto">Café Excelsa</div>
+            <div class="precioProducto">S/25</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata10.png" alt="Café 1">
+            <div class="nombreProducto">Café Molido</div>
+            <div class="precioProducto">S/26</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata11.png" alt="Café 1">
+            <div class="nombreProducto">Café Molido Premium</div>
+            <div class="precioProducto">S/30</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img class="imagenCafe" src="/img/cata12.png" alt="Café 1">
+            <div class="nombreProducto">Café Tostado</div>
+            <div class="precioProducto">S/28</div>
+            <div class="cantidadContainer">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+                <input type="number" value="0" min="0">
+                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+            </div>
+            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+        </div>
+
+        <!-- Repite este bloque para cada producto -->
+        <!-- ... -->
+
+        <!-- Agregar más productos siguiendo el mismo patrón -->
+    </div>
+    <script>
+        function cambiarCantidad(button, incremento) {
+            var input = button.parentElement.querySelector('input');
+            var newValue = parseInt(input.value) + incremento;
+            if (newValue >= 0) {
+                input.value = newValue;
+            }
+        }
+    </script>
+</body>
+
+</html>
