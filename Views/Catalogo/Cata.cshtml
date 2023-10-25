@@ -80,19 +80,29 @@
                 <input type="number" value="0" min="0">
                 <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
             </div>
-            <button class="botonAgregarCarrito">Agregar al Carrito</button>
+             <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
+        <input type="hidden" name="productoId" value="1"> <!-- Debes cambiar el valor del productoId -->
+        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
+    </form>
         </div>
+
+
+
         <div class="producto">
-            <img class="imagenCafe" src="/img/cata2.png" alt="Café 1">
-            <div class="nombreProducto">Café nota Malta Bitter</div>
-            <div class="precioProducto">S/24</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <button class="botonAgregarCarrito">Agregar al Carrito</button>
-        </div>
+    <img class="imagenCafe" src="/img/cata2.png" alt="Café 1">
+    <div class="nombreProducto">Café nota Malta Bitter</div>
+    <div class="precioProducto">S/24</div>
+    <div class="cantidadContainer">
+        <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
+        <input type="number" name="cantidad" value="0" min="0">
+        <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+    </div>
+    <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
+        <input type="hidden" name="productoId" value="2"> <!-- Cambia 2 al ID de tu producto -->
+        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
+    </form>
+</div>
+
         <div class="producto">
             <img class="imagenCafe" src="/img/cata3.png" alt="Café 1">
             <div class="nombreProducto">Café nota Cacao</div>
