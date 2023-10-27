@@ -1,57 +1,116 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ProyectoCoffi.Models; // Asegúrate de que los espacios de nombres coincidan con tu proyecto
+using System.Linq;
+using ProyectoCoffi.Models;
 using ProyectoCoffi.Data;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System.Dynamic;
+
+
 public class CarritoController : Controller
 {
     private readonly ApplicationDbContext _context;
-
-    public CarritoController(ApplicationDbContext context)
-    {
-        _context = context;
-    }
-
-    // Acción para ver el contenido del carrito
-    public IActionResult VerCarrito()
-    {
-        // Recupera los productos en el carrito desde la base de datos
-        var productosEnCarrito = _context.DataProductos.ToList();
-
-        // Calcula el total (puedes hacerlo según tus productos)
-        var total = productosEnCarrito.Sum(p => p.Precio * p.Cantidad);
-
-        // Crea una instancia de CarritoModel y asigna los productos y el total
-        var carrito = new CarritoModel
+    private readonly ILogger<CarritoController> _logger;
+    private readonly UserManager<IdentityUser> _userManager;
+        public CarritoController(ILogger<CarritoController> logger,
+            ApplicationDbContext context,
+            UserManager<IdentityUser> userManager )
         {
-            Productos = productosEnCarrito,
-            Total = total
-        };
-
-        // Pasa el carrito a la vista
-        return View(carrito);
-    }
-
-    // Acción para agregar un producto al carrito
-    [HttpPost]
-    public IActionResult AgregarAlCarrito(int productoId, int cantidad)
-    {
-        // Recupera el producto desde la base de datos
-        var producto = _context.DataProductos.FirstOrDefault(p => p.Id == productoId);
-
-        if (producto == null)
-        {
-            // Producto no encontrado, maneja el error
-            return NotFound();
+            _logger = logger;
+            _context = context;
+            _userManager = userManager;
         }
 
-        // Actualiza la cantidad en el carrito
-        producto.Cantidad += cantidad;
+        public IActionResult Index()
+        {
+            var userIDSession = _userManager.GetUserName(User);
 
-        // Guarda los cambios en la base de datos
-        _context.SaveChanges();
+            //select proforma pr, producto p WHERE join ....And pr.user = usuario sesionado
+            var items = from o in _context.DataCarrito select o;
+            items = items.Include(p => p.Producto).
+                Where(w => w.UserID.Equals(userIDSession) &&
+                    w.Status.Equals("PENDIENTE")
+                    );
+            var itemsCarrito = items.ToList();
+            //Fila1 1234, Shampo; Precio, Cantidad
+            //Fila2 12345, Shampo3; Precio, Cantidad
+            var total = itemsCarrito.Sum(c => c.Cantidad * c.Precio);
+            //MEMORIA
+            dynamic model = new ExpandoObject();
+            model.montoTotal = total;
+            model.elementosCarrito = itemsCarrito;
+            return View(model);
+        }
 
-        return RedirectToAction("VerCarrito");
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var itemproforma = await _context.DataCarrito.FindAsync(id);
+            if (itemproforma == null)
+            {
+                return NotFound();
+            }
+            return View(itemproforma);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Save(int id, [Bind("Id,Cantidad,Precio,UserID")] Proforma itemcarrito)
+        {
+            if (id != itemcarrito.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(itemcarrito);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!_context.DataCarrito.Any(e => e.Id == id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(itemcarrito);
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var itemcarrito = await _context.DataCarrito.FindAsync(id);
+            _context.DataCarrito.Remove(itemcarrito);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View("Error!");
+        }
     }
-
-    // Otras acciones, como vaciar el carrito o pagar, pueden añadirse aquí
-}

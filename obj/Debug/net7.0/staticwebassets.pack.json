@@ -1,327 +1,327 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ProyectoCoffi.bundle.scp.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ProyectoCoffi.bundle.scp.css",
       "PackagePath": "staticwebassets\\ProyectoCoffi.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\COFI5.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\COFI5.PNG",
       "PackagePath": "staticwebassets\\img\\COFI5.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata1.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata1.PNG",
       "PackagePath": "staticwebassets\\img\\cata1.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata10.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata10.PNG",
       "PackagePath": "staticwebassets\\img\\cata10.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata11.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata11.PNG",
       "PackagePath": "staticwebassets\\img\\cata11.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata12.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata12.PNG",
       "PackagePath": "staticwebassets\\img\\cata12.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata2.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata2.PNG",
       "PackagePath": "staticwebassets\\img\\cata2.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata3.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata3.PNG",
       "PackagePath": "staticwebassets\\img\\cata3.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata4.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata4.PNG",
       "PackagePath": "staticwebassets\\img\\cata4.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata5.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata5.PNG",
       "PackagePath": "staticwebassets\\img\\cata5.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata6.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata6.PNG",
       "PackagePath": "staticwebassets\\img\\cata6.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata7.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata7.PNG",
       "PackagePath": "staticwebassets\\img\\cata7.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata8.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata8.PNG",
       "PackagePath": "staticwebassets\\img\\cata8.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cata9.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cata9.PNG",
       "PackagePath": "staticwebassets\\img\\cata9.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cataa1.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cataa1.PNG",
       "PackagePath": "staticwebassets\\img\\cataa1.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cofi1.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cofi1.PNG",
       "PackagePath": "staticwebassets\\img\\cofi1.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cofi2.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cofi2.PNG",
       "PackagePath": "staticwebassets\\img\\cofi2.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cofi3.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cofi3.PNG",
       "PackagePath": "staticwebassets\\img\\cofi3.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cofi4.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cofi4.PNG",
       "PackagePath": "staticwebassets\\img\\cofi4.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\cofi6.PNG",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\cofi6.PNG",
       "PackagePath": "staticwebassets\\img\\cofi6.PNG"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\img\\logo.jpeg",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\img\\logo.jpeg",
       "PackagePath": "staticwebassets\\img\\logo.jpeg"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\shirl\\OneDrive\\Escritorio\\COFI\\ProyectoCoffi-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Usuario\\Desktop\\PROYECTO PROGRAMACION 1\\GITPROYECTOCOFFI\\ProyectoCoffi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
