@@ -1,0 +1,54 @@
+@model IEnumerable<ProyectoCoffi.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Index";
+    var count = 1;
+}
+
+<table class="table table-hover"  id="table_id">
+    
+    <a class="btn btn-success" asp-action="ExportarExcel">GENERAR UN REPORTE EXCEL</a>
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">
+                        №
+             </th>
+             <th scope="col">
+              CORREO DE CLIENTE
+             </th>
+             <th scope="col">
+TOTAL
+             </th>
+
+              <th scope="col">
+ESTADO DE PEDIDO
+              </th>
+              
+              <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           <th scope="row">
+                    @count
+            </th>
+            <td>
+                 @Html.DisplayFor(modelItem => item.UserID)
+            </td>
+            <td>
+               @Html.DisplayFor(modelItem => item.Total)
+            </td>                
+            <td>
+                  @Html.DisplayFor(modelItem => item.Status)
+            </td>
+             <td>   
+
+        <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.ID">Editar</a> 
+
+            </td>
+        </tr>
+        count++;
+}
+    </tbody>
+</table>
