@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xgUB5NiOmBSLzEM/y+jj75iAHb6+h4clsj773TVl+LaLAIHSS/ngbnPjw/F91Wacuof8qk6YIHKaYbiAb0hcWA==",
+  "dgSpecHash": "gjJOV+bi82vCnh5j6IRxMeX06tnqycCYtWkLv7sI3Xhm4scdCTCz6/FpmfOKFh+sZLbmfLKiktswSIJuRC7jnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\ProyectoCoffi-main\\ProyectoCoffi.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Documents\\PROYECTOCOFFI\\ProyectoCoffi\\ProyectoCoffi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\aspnetcore.healthchecks\\1.0.0\\aspnetcore.healthchecks.1.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\extensions.healthchecks\\1.0.0\\extensions.healthchecks.1.0.0.nupkg.sha512",
