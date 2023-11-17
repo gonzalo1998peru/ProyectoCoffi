@@ -222,6 +222,36 @@ namespace ProyectoCoffi.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("ProyectoCoffi.Models.DetallePedido", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("integer");
+
+                    b.Property<int?>("PedidoID")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("numeric");
+
+                    b.Property<int?>("ProductoId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("PedidoID");
+
+                    b.HasIndex("ProductoId");
+
+                    b.ToTable("t_detalle_pedido");
+                });
+
             modelBuilder.Entity("ProyectoCoffi.Models.Pago", b =>
                 {
                     b.Property<int>("Id")
@@ -318,7 +348,7 @@ namespace ProyectoCoffi.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
-                        .HasColumnName("Id");
+                        .HasColumnName("id");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
@@ -429,6 +459,21 @@ namespace ProyectoCoffi.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.DetallePedido", b =>
+                {
+                    b.HasOne("ProyectoCoffi.Models.Pedido", "Pedido")
+                        .WithMany()
+                        .HasForeignKey("PedidoID");
+
+                    b.HasOne("ProyectoCoffi.Models.Producto", "Producto")
+                        .WithMany()
+                        .HasForeignKey("ProductoId");
+
+                    b.Navigation("Pedido");
+
+                    b.Navigation("Producto");
                 });
 
             modelBuilder.Entity("ProyectoCoffi.Models.Pedido", b =>

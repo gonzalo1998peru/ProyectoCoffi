@@ -21,7 +21,10 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<ProyectoCoffi.Models.Pago> DataPago { get; set;}
 
     public DbSet<ProyectoCoffi.Models.Pedido> DataPedido { get; set;}
+    public DbSet<DetallePedido> DataDetallePedido {get;set;}
 
-    public DbSet<ProyectoCoffi.Models.Proforma> DataProforma { get; set;}
+    public DbSet<Proforma> DataProforma { get; set;}
+
+    
 
 }

@@ -1,263 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Catálogo de Cafés</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #d5b097; /* Color de fondo deseado */
-            padding: 20px;
-        }
-        .titulo {
-            text-align: center;
-            font-size: 2em;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            font-weight: bold;
-        }
-        .catalogoContainer {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .producto {
-        border: 1px solid #ccc;
-        padding: 20px;
-        margin: 10px;
-        width: 23%; /* Ancho ajustado para mostrar 4 productos en una fila */
-        text-align: center;
-        background: linear-gradient(45deg, #ff6b6b, #ffb88c); /* Fondo degradado */
-        transition: background 0.3s ease; /* Transición para el cambio de color */
-    }
-        .imagenCafe {
-            max-width: 100px;
-            max-height: 100px;
-            margin-bottom: 10px;
-        }
-         .nombreProducto {
-        margin-bottom: 5px;
-        color: white; /* Color del texto */
-    }
-         .precioProducto {
-        margin-bottom: 5px;
-        color: white; /* Color del texto */
-    }
-        .cantidadContainer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        .botonCantidad {
-            font-size: 1.2em;
-            margin: 0 5px;
-        }
-        .botonAgregarCarrito {
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 1em;
-        }
-        .botonAgregarCarrito:hover {
-            background-color: #45a049;
-        }
-        .producto:hover {
-        background: linear-gradient(45deg, rgb(83, 31, 31), rgb(163, 98, 98)); /* Color al pasar el ratón */
-    }
-    </style>
-</head>
-<body>
-    <div class="titulo">CATÁLOGO DE PRODUCTOS</div>
-    <div class="catalogoContainer">
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cataa1.png" alt="Café 1">
-            <div class="nombreProducto">Café Tostado Intenso</div>
-            <div class="precioProducto">S/25</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="1"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
+@model IEnumerable<ProyectoCoffi.Models.Producto>
+@{
+    ViewData["Title"] = "Catalogo";  
+}
 
-
-
-        <div class="producto">
-    <img class="imagenCafe" src="/img/cata2.png" alt="Café 1">
-    <div class="nombreProducto">Café nota Malta Bitter</div>
-    <div class="precioProducto">S/24</div>
-    <div class="cantidadContainer">
-        <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-        <input type="number" name="cantidad" value="0" min="0">
-        <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-    </div>
-    <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="2"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-</div>
-
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata3.png" alt="Café 1">
-            <div class="nombreProducto">Café nota Cacao</div>
-            <div class="precioProducto">S/27</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
+<h1>@ViewData["Title"]</h1>
+  <div class="container">
+    <h1>@ViewData["Message"]</h1>
+    <div class="row">
+      
+      <div class="col">
+        <div id="products" class="mb-3">
+          <div class="row">
+            @foreach (var item in Model) {
+            <div class="col-sm-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="card-img-actions">
+                    <img class="img-responsive" style="width: 100px; max-width: 100%; height: 100px"
+                      src="@item.ImageName" alt="@item.ImageName"  />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                  <p class="card-text">@Html.DisplayFor(modelItem => item.Precio)</p>
+                  <a class="btn btn-primary" asp-action="Add" asp-route-id="@item.Id">Add</a>
+                  <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">View</a>
+                </div>
+              </div>
             </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="3"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata4.png" alt="Café 1">
-            <div class="nombreProducto">Café nota Frutal</div>
-            <div class="precioProducto">S/28</div>
-            <div class="cantidadContainer">
-               <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-           <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="4"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata5.png" alt="Café 1">
-            <div class="nombreProducto">Café Robusto</div>
-            <div class="precioProducto">S/30</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-           <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="5"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata6.png" alt="Café 1">
-            <div class="nombreProducto">Café Geisha</div>
-            <div class="precioProducto">S/26</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-           <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="6"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata7.png" alt="Café 1">
-            <div class="nombreProducto">Café Iberica</div>
-            <div class="precioProducto">S/20</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="7"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata8.png" alt="Café 1">
-            <div class="nombreProducto">Café Arabica</div>
-            <div class="precioProducto">S/23</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="8"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata9.png" alt="Café 1">
-            <div class="nombreProducto">Café Excelsa</div>
-            <div class="precioProducto">S/25</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="9"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata10.png" alt="Café 1">
-            <div class="nombreProducto">Café Molido</div>
-            <div class="precioProducto">S/26</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="10"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata11.png" alt="Café 1">
-            <div class="nombreProducto">Café Molido Premium</div>
-            <div class="precioProducto">S/30</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="11"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-        <div class="producto">
-            <img class="imagenCafe" src="/img/cata12.png" alt="Café 1">
-            <div class="nombreProducto">Café Tostado</div>
-            <div class="precioProducto">S/28</div>
-            <div class="cantidadContainer">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, -1)">-</button>
-                <input type="number" value="0" min="0">
-                <button class="botonCantidad" onclick="cambiarCantidad(this, 1)">+</button>
-            </div>
-            <form method="post" asp-controller="Carrito" asp-action="AgregarAlCarrito">
-        <input type="hidden" name="productoId" value="12"> <!-- Cambia 2 al ID de tu producto -->
-        <button type="submit" class="botonAgregarCarrito">Agregar al Carrito</button>
-    </form>
-        </div>
-
-        <!-- Repite este bloque para cada producto -->
-        <!-- ... -->
-
-        <!-- Agregar más productos siguiendo el mismo patrón -->
-    </div>
-    <script>
-        function cambiarCantidad(button, incremento) {
-            var input = button.parentElement.querySelector('input');
-            var newValue = parseInt(input.value) + incremento;
-            if (newValue >= 0) {
-                input.value = newValue;
             }
-        }
-    </script>
-</body>
-
-</html>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>

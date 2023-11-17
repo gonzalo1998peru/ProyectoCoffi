@@ -1,0 +1,56 @@
+@model ProyectoCoffi.Models.Producto
+@{
+    ViewData["Title"] = "Detalles del Producto | ";
+}
+<style>
+  .card-text{
+    text-align: justify;
+  }
+  .title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 5xp;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .container-detalle{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .guide {
+    padding-left: 2%;
+    color: black;
+  }
+</style>
+<div class="container-detalle">
+    <div class="title">
+        <a class="guide" asp-area="" asp-controller="Home" asp-action="Index"><b>Inicio</b></a> > <a color="black"><b>@Html.DisplayFor(model => model.Name)</b></a> 
+    </div>
+    <div class="row">
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-img-actions">
+                        <img class="img-responsive" width="300" height="500" src="@Html.DisplayFor(model => model.ImageName)" alt="@Html.DisplayFor(model => model.ImageName)" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(model => model.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(model => model.Descripcion)</p>
+                    <h5 class="card-title">Precio: s/.@Html.DisplayFor(model => model.Precio)</h5>
+
+                    <a class="btn btn-link" asp-action="Add" asp-route-id="@Model.Id" title="Añadir al carrito"><i class="fa-solid fa-basket-shopping" style="color: #581908;"></i></a>
+                    <a class="btn btn-link" asp-action="Add1" asp-route-id="@Model.Id" title="Mis Favoritos"><i class="fa-solid fa-heart" style="color: #581908;"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

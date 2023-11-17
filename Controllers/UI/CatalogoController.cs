@@ -11,7 +11,8 @@ using Microsoft.AspNetCore.Identity;
 
 namespace ProyectoCoffi.Controllers
 {
-        public class CatalogoController : Controller {
+    public class CatalogoController : Controller
+    {
         private readonly ILogger<CatalogoController> _logger;
         private readonly ApplicationDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
@@ -29,7 +30,7 @@ namespace ProyectoCoffi.Controllers
             _signInManager = signInManager;
         }
 
-        public IActionResult Index()
+        public IActionResult Cata()
         {
             var productos = from o in _context.DataProductos select o;
             return View(productos.ToList());
@@ -49,7 +50,7 @@ namespace ProyectoCoffi.Controllers
                 //no se ha logueado
                 ViewData["Message"] = "Por favor debe loguearse antes de agregar un producto";
                 List<Producto> productos = new List<Producto>();
-                return  View("Index",productos);
+                return  View("Cata",productos);
             }else{
                 //ya esta logueado
                 var producto = await _context.DataProductos.FindAsync(id);
@@ -58,16 +59,17 @@ namespace ProyectoCoffi.Controllers
                 proforma.Precio = producto.Precio; //precio del producto en ese momento
                 proforma.Cantidad = 1;
                 proforma.UserID = userID;
+                    Console.WriteLine("ID="+id+" | ProductoId="+producto.Id+" | Precio="+producto.Precio);
                 _context.Add(proforma);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Cata));
             }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Cata()
+        public IActionResult Error()
         {
-            return View("Cata");
+            return View("Error!");
         }
     }
 }
