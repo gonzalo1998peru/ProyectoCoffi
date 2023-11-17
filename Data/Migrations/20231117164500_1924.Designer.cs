@@ -12,8 +12,8 @@ using ProyectoCoffi.Data;
 namespace ProyectoCoffi.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231025045325_NombreDeLaMigracion")]
-    partial class NombreDeLaMigracion
+    [Migration("20231117164500_1924")]
+    partial class _1924
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -225,31 +225,96 @@ namespace ProyectoCoffi.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ProductoEnCarrito", b =>
+            modelBuilder.Entity("ProyectoCoffi.Models.DetallePedido", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
 
                     b.Property<int>("Cantidad")
                         .HasColumnType("integer");
 
-                    b.Property<string>("Foto")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int?>("PedidoID")
+                        .HasColumnType("integer");
 
                     b.Property<decimal>("Precio")
                         .HasColumnType("numeric");
 
+                    b.Property<int?>("ProductoId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("PedidoID");
+
+                    b.HasIndex("ProductoId");
+
+                    b.ToTable("t_detalle_pedido");
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.Pago", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("MontoTotal")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("NombreTarjeta")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("NumeroTarjeta")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.HasKey("Id");
 
-                    b.ToTable("DataProductos");
+                    b.ToTable("t_pago");
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.Pedido", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<decimal>("Total")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("UserID")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("pagoId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("pagoId");
+
+                    b.ToTable("t_order");
                 });
 
             modelBuilder.Entity("ProyectoCoffi.Models.Persona", b =>
@@ -279,6 +344,73 @@ namespace ProyectoCoffi.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("t_persona");
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.Producto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("text");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<decimal>("PorcentajeDescuento")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("t_producto");
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.Proforma", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("numeric");
+
+                    b.Property<int?>("ProductoId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("UserID")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductoId");
+
+                    b.ToTable("t_proforma");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -330,6 +462,41 @@ namespace ProyectoCoffi.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.DetallePedido", b =>
+                {
+                    b.HasOne("ProyectoCoffi.Models.Pedido", "Pedido")
+                        .WithMany()
+                        .HasForeignKey("PedidoID");
+
+                    b.HasOne("ProyectoCoffi.Models.Producto", "Producto")
+                        .WithMany()
+                        .HasForeignKey("ProductoId");
+
+                    b.Navigation("Pedido");
+
+                    b.Navigation("Producto");
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.Pedido", b =>
+                {
+                    b.HasOne("ProyectoCoffi.Models.Pago", "pago")
+                        .WithMany()
+                        .HasForeignKey("pagoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("pago");
+                });
+
+            modelBuilder.Entity("ProyectoCoffi.Models.Proforma", b =>
+                {
+                    b.HasOne("ProyectoCoffi.Models.Producto", "Producto")
+                        .WithMany()
+                        .HasForeignKey("ProductoId");
+
+                    b.Navigation("Producto");
                 });
 #pragma warning restore 612, 618
         }

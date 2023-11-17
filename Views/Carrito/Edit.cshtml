@@ -1,0 +1,70 @@
+@model ProyectoCoffi.Models.Proforma
+
+@{
+    ViewData["Title"] = "Edit | ";
+}
+
+<style>
+    .contenido {
+        padding: 20px;
+        align-items: center;
+        max-width: 1000px;
+	    margin: 0 auto;
+        text-align: justify;
+        align-content: center;
+        justify-items: center;
+        
+
+    }
+
+    .row{
+        align-items: center;
+        align-self: center;
+    }
+
+    
+</style>
+
+<div class="contenido">
+<h1>Edit</h1>
+
+<h4>Proforma</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+
+        
+
+  <div class="col-md-4">
+        
+        <img src="@Model.Producto.ImageName" alt="@Model.Producto.ImageName" width="100" height="150" />
+            <p>@Model.Producto.Name</p>
+    </div>
+
+
+        
+        <form asp-controller="Carrito" asp-action="Save">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="UserID" />
+            <input type="hidden" asp-for="Precio" />
+            <div class="form-group">
+                <label asp-for="Cantidad" class="control-label"></label>
+                <input asp-for="Cantidad" class="form-control" />
+                <span asp-validation-for="Cantidad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+        
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

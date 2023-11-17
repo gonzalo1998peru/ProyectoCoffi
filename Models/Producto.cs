@@ -7,7 +7,7 @@ namespace ProyectoCoffi.Models{
     public class Producto
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("Id")]
+        [Column("id")]
         public int Id { get; set; }
         public string? Name { get; set; }
         public string? Descripcion { get; set; }

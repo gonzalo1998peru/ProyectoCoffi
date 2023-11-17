@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-
 using ProyectoCoffi.Data;
 using ProyectoCoffi.Models;
 using ProyectoCoffi.Service;
 
-namespace ProyectoCoffi.Controllers
+namespace ProyectoCoffi.Controllers.UI
 {
     public class ProductoController : Controller
     {
@@ -26,8 +25,8 @@ namespace ProyectoCoffi.Controllers
         {
             var productos = await _productoService.GetAll();
             return productos != null ? 
-                            View(productos) :
-                            Problem("Entity set 'ApplicationDbContext.DataProductos'  is null.");
+                          View(productos) :
+                          Problem("Entity set 'ApplicationDbContext.DataProductos'  is null.");
         }
 
         // GET: Producto/Details/5
@@ -38,8 +37,8 @@ namespace ProyectoCoffi.Controllers
                 return NotFound();
             }
 
-            var producto = await _productoService.FirstOrDefault(id);
-            if (producto == null)
+            var producto = await _productoService.Detalles(id);
+            if(producto == null)
             {
                 return NotFound();
             }
@@ -57,11 +56,11 @@ namespace ProyectoCoffi.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Descripcion,Precio,PorcentajeDescuento,ImageName,Status")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,Name,Descripcion,Autor,Genero,Idioma,Editorial,año,Npag,ImageName,Precio,Descuento")] Producto producto)
         {
             if (ModelState.IsValid)
             {
-                await _productoService.CreateOrUpdate(producto);
+                await _productoService.Crear(producto);
                 return RedirectToAction(nameof(Index));
             }
             return View(producto);
@@ -71,7 +70,8 @@ namespace ProyectoCoffi.Controllers
         public async Task<IActionResult> Edit(int? id)
         {
             var producto = await _productoService.Get(id);
-            if( producto == null){
+            if (producto == null)
+            {
                 return NotFound();
             }
             return View(producto);
@@ -82,7 +82,7 @@ namespace ProyectoCoffi.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Descripcion,Precio,PorcentajeDescuento,ImageName,Status")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Descripcion,Autor,Genero,Idioma,Editorial,año,Npag,ImageName,Precio,Descuento")] Producto producto)
         {
             if (id != producto.Id)
             {
@@ -93,7 +93,7 @@ namespace ProyectoCoffi.Controllers
             {
                 try
                 {
-                    await _productoService.CreateOrUpdate(producto);
+                    await _productoService.Update(producto);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -115,9 +115,11 @@ namespace ProyectoCoffi.Controllers
         public async Task<IActionResult> Delete(int? id)
         {
             var producto = await _productoService.Get(id);
-            if( producto == null){
+            if (producto == null)
+            {
                 return NotFound();
             }
+
             return View(producto);
         }
 
@@ -125,7 +127,7 @@ namespace ProyectoCoffi.Controllers
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
-        {
+        {   
             await _productoService.Delete(id);
             return RedirectToAction(nameof(Index));
         }

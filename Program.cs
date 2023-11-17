@@ -2,17 +2,18 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ProyectoCoffi.Data;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using System.Diagnostics;     
+using System.Configuration; 
 using ProyectoCoffi.Service;
-using System.Diagnostics;
+
+using Newtonsoft;
 
 
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddHealthChecks();
-
-
 // Add services to the container.
-var connectionString=Environment.GetEnvironmentVariable("RENDER_POSTGRES_CONNECTION");
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString = Environment.GetEnvironmentVariable("RENDER_POSTGRES_CONNECTION");
 if (string.IsNullOrEmpty(connectionString))
 {
     connectionString = builder.Configuration.GetConnectionString("PostgresSQLConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -22,15 +23,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-//Agregando los roles
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<ProductoService, ProductoService>();
 
-//Registro mi logica customizada y reuzable
-    builder.Services.AddScoped<ProductoService, ProductoService>();
+builder.Services.AddScoped<PedidoService, PedidoService>();
+
+
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -45,6 +50,8 @@ else
     app.UseHsts();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -57,6 +64,5 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
-
 app.MapHealthChecks("/health");
 app.Run();

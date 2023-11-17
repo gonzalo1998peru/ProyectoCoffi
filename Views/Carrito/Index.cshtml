@@ -1,0 +1,141 @@
+@model dynamic;
+@using System.Collections.Generic;
+
+@{
+    ViewData["Title"] = "Carrito de compras";
+    IEnumerable<ProyectoCoffi.Models.Proforma> listItemsCarrito = new List<Proforma>();
+    listItemsCarrito = @Model.elementosCarrito;
+    Decimal montoTotal = @Model.montoTotal;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300;400;500&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+
+<style>
+    .row {
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    .medium-gray {
+        background-color: rgb(240, 240, 240);
+        /* Color medio plomo */
+    }
+
+
+    .title {
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        color: #581908;
+    }
+
+    .table td {
+        text-align: center;
+    }
+
+    .vertical-center {
+        vertical-align: middle;
+    }
+
+    .custom-container {
+        border: 2px solid rgb(210, 210, 210);
+        padding: 10px;
+        text-align: right;
+        font-family: 'Kanit', sans-serif;
+        flex: 1;
+
+    }
+
+
+
+    .custom-title {
+        font-size: 24px;
+
+    }
+
+    .with-border {
+        border-bottom: 1px solid #581908;
+    }
+
+    .custom-button-color {
+        background-color: #581908;
+        /* Color de fondo del botón */
+        border-color: #581908;
+        /* Color del borde del botón */
+        color: white;
+        /* Color del texto en el botón */
+    }
+
+    .custom-button-color:hover {
+        background-color: #F5C116;
+        /* Color de fondo del botón al pasar el mouse */
+        border-color: #F5C116;
+        /* Color del borde del botón al pasar el mouse */
+        color: black;
+        /* Color del texto en el botón al pasar el mouse */
+    }
+</style>
+
+<br>
+<h1 class="title">@ViewData["Title"]</h1>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="table-responsive custom-border">
+                <table class="table table-bordered table-striped" style="background-color: #581908;">
+                    <!-- Fondo blanco -->
+                    <thead>
+                        <tr>
+                            <th style="color: white;" class="text-center header-cell">Libro</th>
+                            <th style="color: white;" class="text-center header-cell">Nombre del Libro</th>
+                            <th style="color: white;" class="text-center header-cell">Cantidad</th>
+                            <th style="color: white;" class="text-center header-cell">Precio</th>
+                            <th style="color: white;" class="text-center header-cell">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Proforma item in Model.elementosCarrito)
+                        {
+                            <tr class="medium-gray"> 
+                                <td><img src="@item.Producto.ImageName" alt="@item.Producto.ImageName" width="100"
+                                        height="150" /></td>
+                                <td class="vertical-center">@Html.DisplayFor(modelItem => item.Producto.Name)</td>
+                                <td class="vertical-center">@Html.DisplayFor(modelItem => item.Cantidad)</td>
+                                <td class="vertical-center">S/. @Html.DisplayFor(modelItem => item.Precio)</td>
+                                <td class="vertical-center">
+                                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">
+                                        <i class="fas fa-pencil-alt"></i> 
+                                    </a>
+
+                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">
+                                        <i class="fas fa-trash"></i> 
+                                    </a>
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-4 custom-container">
+            <br>
+            <h2 class="custom-title with-border" style="color: #581908;">Resumen de compra</h2>
+            <p class="text-right">Subtotal S/. @montoTotal</p>
+            <br>
+            <p class="text-right with-border">IGV S/. 0</p>
+            <p class="text-right">Total S/. @montoTotal</p>
+            <a class="btn btn-success btn-block custom-button-color" asp-controller="Pago" asp-action="Create"
+                asp-route-monto="@montoTotal">Finalizar compra</a>
+
+        </div>
+    </div>
+</div>

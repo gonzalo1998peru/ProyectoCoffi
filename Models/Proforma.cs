@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProyectoCoffi.Models{
-    [Table("t_proforma")]
+     [Table("t_proforma")]
     public class Proforma
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("id")]
-        public int Id { get; set; }
+        [Column("id")]        
+        public int Id { get; set; }   
         public string? UserID { get; set; }
         public Producto? Producto { get; set; }
         public int Cantidad { get; set; }
