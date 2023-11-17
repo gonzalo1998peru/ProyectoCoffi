@@ -12,7 +12,7 @@ using ProyectoCoffi.Data;
 namespace ProyectoCoffi.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231117164500_1924")]
+    [Migration("20231117194327_1924")]
     partial class _1924
     {
         /// <inheritdoc />
@@ -227,17 +227,17 @@ namespace ProyectoCoffi.Data.Migrations
 
             modelBuilder.Entity("ProyectoCoffi.Models.DetallePedido", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
                         .HasColumnName("id");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Cantidad")
                         .HasColumnType("integer");
 
-                    b.Property<int?>("PedidoID")
+                    b.Property<int?>("PedidoId")
                         .HasColumnType("integer");
 
                     b.Property<decimal>("Precio")
@@ -246,9 +246,9 @@ namespace ProyectoCoffi.Data.Migrations
                     b.Property<int?>("ProductoId")
                         .HasColumnType("integer");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
-                    b.HasIndex("PedidoID");
+                    b.HasIndex("PedidoId");
 
                     b.HasIndex("ProductoId");
 
@@ -289,12 +289,12 @@ namespace ProyectoCoffi.Data.Migrations
 
             modelBuilder.Entity("ProyectoCoffi.Models.Pedido", b =>
                 {
-                    b.Property<int>("ID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
                         .HasColumnName("id");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Status")
                         .IsRequired()
@@ -310,11 +310,11 @@ namespace ProyectoCoffi.Data.Migrations
                     b.Property<int>("pagoId")
                         .HasColumnType("integer");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.HasIndex("pagoId");
 
-                    b.ToTable("t_order");
+                    b.ToTable("t_pedido");
                 });
 
             modelBuilder.Entity("ProyectoCoffi.Models.Persona", b =>
@@ -468,7 +468,7 @@ namespace ProyectoCoffi.Data.Migrations
                 {
                     b.HasOne("ProyectoCoffi.Models.Pedido", "Pedido")
                         .WithMany()
-                        .HasForeignKey("PedidoID");
+                        .HasForeignKey("PedidoId");
 
                     b.HasOne("ProyectoCoffi.Models.Producto", "Producto")
                         .WithMany()

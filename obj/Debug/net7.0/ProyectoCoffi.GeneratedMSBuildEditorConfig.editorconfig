@@ -9,141 +9,141 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoCoffi
 build_property.RootNamespace = ProyectoCoffi
-build_property.ProjectDir = C:\Users\Usuario\Downloads\ProyectoCoffi-main\
+build_property.ProjectDir = C:\Users\Usuario\Documents\PROYECTOCOFFI\ProyectoCoffi\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Usuario\Downloads\ProyectoCoffi-main
+build_property.MSBuildProjectDirectory = C:\Users\Usuario\Documents\PROYECTOCOFFI\ProyectoCoffi
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Carrito/Edit.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Carrito/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Carrito/Index.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Carrito/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Catalogo/Cata.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Catalogo/Cata.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cQ2F0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Catalogo/Details.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Catalogo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Home/Contacto.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Home/Contacto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Home/DetailsHome.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Home/DetailsHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Home/Index.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Home/Privacy.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Pago/Create.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Pago/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Pago/Index.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Pago/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Pedido/Details.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Pedido/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Pedido/Edit.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Pedido/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Pedido/Index.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Pedido/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Persona/Index.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Persona/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Producto/Create.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Producto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Producto/Delete.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Producto/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Producto/Details.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Producto/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Producto/Edit.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Producto/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Producto/Index.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Producto/IndexP.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Producto/IndexP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXhQLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Shared/Error.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Shared/_MenuAdminPartial.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Shared/_MenuAdminPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51QWRtaW5QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/_ViewImports.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/_ViewStart.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Usuario/Downloads/ProyectoCoffi-main/Views/Shared/_Layout.cshtml]
+[C:/Users/Usuario/Documents/PROYECTOCOFFI/ProyectoCoffi/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5sdnexb93p

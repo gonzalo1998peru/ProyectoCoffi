@@ -9,7 +9,7 @@ namespace ProyectoCoffi.Models
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id")]
-        public int ID {get; set;}
+        public int Id {get; set;}
 
         public Producto? Producto {get; set;}
 
@@ -18,3 +18,4 @@ namespace ProyectoCoffi.Models
         public Pedido? Pedido {get; set;}
     }
 }
+
